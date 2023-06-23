@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+
+header {
+  background-color: forestgreen;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery {
+  margin-bottom: 20px;
+}
+
+.atrações {
+  display: grid;
+  grid
+  max-width: 100%;
+  display: block;
+}
+.flex{
+  display: flex;
+  flex: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.flex > div{
+  flex: 1 1 280px;
+  margin: 15px;
+}
+h2{
+  color: darkblue;
+}
